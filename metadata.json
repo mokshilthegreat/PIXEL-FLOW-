@@ -1,0 +1,6 @@
+{
+  "name": "PIXEL FLOW!",
+  "description": "A modern, vibrant mobile-first puzzle game. Connect matching colored pixel nodes with glowing neon paths.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

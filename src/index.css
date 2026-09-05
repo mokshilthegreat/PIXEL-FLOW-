@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    touch-action: pan-x pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-display {
+  font-family: 'Chakra Petch', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Sophisticated Dark Theme Styles */
+.pixel-grid {
+  background-image: radial-gradient(#1E293B 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.glow-blue {
+  filter: drop-shadow(0 0 8px #3B82F6);
+}
+
+.glow-pink {
+  filter: drop-shadow(0 0 8px #EC4899);
+}
+
+.glow-green {
+  filter: drop-shadow(0 0 8px #10B981);
+}
+
+.glow-orange {
+  filter: drop-shadow(0 0 8px #F59E0B);
+}
+
+.glow-purple {
+  filter: drop-shadow(0 0 8px #A855F7);
+}
+
+.glow-cyan {
+  filter: drop-shadow(0 0 8px #06B6D4);
+}
+
+.glow-yellow {
+  filter: drop-shadow(0 0 8px #EAB308);
+}
+
+.glow-red {
+  filter: drop-shadow(0 0 8px #EF4444);
+}
+
+.glass-panel {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.board-cell {
+  border: 1px solid rgba(30, 41, 59, 0.5);
+}
+
+.neon-text-pixel {
+  color: #3B82F6;
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.neon-text-flow {
+  color: #EC4899;
+  text-shadow: 0 0 10px rgba(236, 72, 153, 0.5);
+}
+
+/* Neon Glow Utilities */
+.neon-glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.45), 0 0 30px rgba(6, 182, 212, 0.2);
+}
+
+.neon-glow-pink {
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.45), 0 0 30px rgba(236, 72, 153, 0.2);
+}
+
+.neon-glow-purple {
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.45), 0 0 30px rgba(168, 85, 247, 0.2);
+}
+
+.neon-glow-green {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.45), 0 0 30px rgba(16, 185, 129, 0.2);
+}
+
+.neon-glow-yellow {
+  box-shadow: 0 0 15px rgba(234, 179, 8, 0.45), 0 0 30px rgba(234, 179, 8, 0.2);
+}
+
+.neon-glow-orange {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.45), 0 0 30px rgba(249, 115, 22, 0.2);
+}
+
+.neon-glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.45), 0 0 30px rgba(59, 130, 246, 0.2);
+}
+
+.neon-glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.45), 0 0 30px rgba(239, 68, 68, 0.2);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.7), 0 0 24px rgba(6, 182, 212, 0.35);
+}
+
+.text-glow-pink {
+  text-shadow: 0 0 12px rgba(236, 72, 153, 0.7), 0 0 24px rgba(236, 72, 153, 0.35);
+}
+
+.text-glow-yellow {
+  text-shadow: 0 0 12px rgba(234, 179, 8, 0.7), 0 0 24px rgba(234, 179, 8, 0.35);
+}
+
+/* Glass panel */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.board-glass {
+  background: radial-gradient(circle at center, rgba(17, 24, 39, 0.92) 0%, rgba(10, 15, 26, 0.98) 100%);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.07) inset;
+}
+
+/* Prevent unwanted mobile gestures */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
